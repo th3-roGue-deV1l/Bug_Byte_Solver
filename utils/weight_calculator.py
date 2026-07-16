@@ -59,8 +59,6 @@ def Nrecurse(G, node, total_weight = 0, count = 0, weight_check = [], initial_no
         return G.nodes[initial_node]['weight']
     count += 1
     return Nrecurse(G, r, total_weight, count, weight_check, initial_node)
-    # print(edges)
-    return 1
     
 
 def weightcalculator(G, nodes, edges):
